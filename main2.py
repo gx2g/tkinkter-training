@@ -3,7 +3,6 @@ from tkinter import *
 # submodule new theme widgets added in version 8.5
 from tkinter import ttk
 
-
 # global function for calculation of feet to meter 
 def calculate(*args):
     
@@ -20,6 +19,7 @@ root.title("My Application - QLAN DEV")
 
 # creating a Content Frame
 mainframe = ttk.Frame(root, padding="3 3 12 12")
+
 # grid places it directly inside the application window
 mainframe.grid(column=0, row=0, sticky=(N, W, E, S))
 
